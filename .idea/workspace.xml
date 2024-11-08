@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="658ab653-f88e-458a-a259-39bc84d08f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module_2_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/web_training_30.10.2024.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_training/web_training_30.10.2024.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,8 @@
     "Python.module_1_6.executor": "Run",
     "Python.module_1_9.executor": "Run",
     "Python.module_2_2.executor": "Run",
+    "Python.module_2_3.executor": "Run",
+    "Python.web_training_30.10.2024.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Jinx Sinclaire/Documents/GitHub/homework/.venv/Scripts/activate_this.py",
