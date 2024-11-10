@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="658ab653-f88e-458a-a259-39bc84d08f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module_2_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_2_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_2_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_training/Cross_Zero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_training/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_training/main.py" afterDir="false" />
     </list>
@@ -25,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../my_training" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -40,6 +37,9 @@
     &quot;accountId&quot;: &quot;2d996756-50e6-4fd3-b1c8-b8c7cd186132&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Cross_Zero.executor": "Run",
     "Python.Module_Homework.executor": "Run",
     "Python.TrainCalc1.0.executor": "Run",
     "Python.main.executor": "Run",
@@ -59,7 +60,7 @@
     "Python.module_1_6.executor": "Run",
     "Python.module_1_9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Jinx Sinclaire/Documents/GitHub/homework/.venv/Scripts/activate_this.py",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
