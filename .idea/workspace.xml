@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="658ab653-f88e-458a-a259-39bc84d08f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module_3_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_training/practice_mod_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../my_training" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -64,8 +64,9 @@
     "Python.module_3_3.executor": "Run",
     "Python.module_3_4.executor": "Run",
     "Python.module_3_5.executor": "Run",
+    "Python.practice_mod_3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Jinx Sinclaire/Documents/GitHub/homework/.venv/Scripts/activate_this.py",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
