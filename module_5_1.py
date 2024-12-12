@@ -10,12 +10,23 @@ class House:
             while i<new_floor:
                 i+=1
                 print(i)
-
+    def __len__(self):
+        return self.number_of_floors
+    def __str__(self):
+        return f'Название: {self.name}, кол-во этажей: {self.__len__()}'
 
 h1 = House('ЖК Горский', 18)
-
 h2 = House('Домик в деревне', 2)
 
 h1.go_to(0)
-
 h2.go_to(2)
+
+# Следующее задание module_5_2 тоже выполнено здесь
+
+h3 = House('ЖК Эльбрус', 10)
+h4 = House('ЖК Акация', 20)
+
+print(h3.__str__())
+print(len(h3))
+print(str(h3))
+print(len(h4))
