@@ -14,6 +14,49 @@ class House:
         return self.number_of_floors
     def __str__(self):
         return f'Название: {self.name}, кол-во этажей: {self.__len__()}'
+    
+    
+    
+    #MODULE_5_3
+    
+    
+    def __eq__(self,other):
+        if self.number_of_floors == other.number_of_floors:
+            return True
+        else:
+            return False
+    def __it__(self,other):
+        if self.number_of_floors < other.number_of_floors:
+            return True
+        else:
+            return False
+    def __le__(self,other):
+        if self.number_of_floors <= other.number_of_floors:
+            return True
+        else:
+            return False
+    def __gt__(self,other):
+        if self.number_of_floors>other.number_of_floors:
+            return True
+        else:
+            return False
+    def __ge__(self,other):
+        if self.number_of_floors>=other.number_of_floors:
+            return True
+        else:
+            return False
+    def __ne__(self,other):
+        if self.number_of_floors!=other.number_of_floors:
+            return True
+        else:
+            return False
+    def __add__(self,value):
+        self.number_of_floors+=value
+        return self.number_of_floors
+    def __radd__(self,value):
+        return add(self,value)
+    def __iadd__(self,value):
+        return add(self,value)
 
 h1 = House('ЖК Горский', 18)
 h2 = House('Домик в деревне', 2)
