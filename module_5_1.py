@@ -1,4 +1,8 @@
 class House:
+    def __new__(cls,*args,**kwargs):
+        cls.houses_history=cls.hoses_history.append(args[0])
+        
+        return object.__new__(cls)
     def __init__(self,name,floors):
         self.name=name
         self.number_of_floors=floors
@@ -89,6 +93,10 @@ class House:
             return self
         else:
             print('Ne tot class- ', type(value), value)
+            
+    #MODULE_5_4
+    
+    
 
 # h1 = House('ЖК Горский', 18)
 # h2 = House('Домик в деревне', 2)
