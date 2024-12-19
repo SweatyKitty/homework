@@ -1,11 +1,15 @@
 class House:
+    houses_history =[]
     def __new__(cls,*args,**kwargs):
-        cls.houses_history=cls.hoses_history.append(args[0])
-        
+        cls.houses_history.append(args[0])
         return object.__new__(cls)
+
     def __init__(self,name,floors):
         self.name=name
         self.number_of_floors=floors
+    def __del__(self):
+        print(f'{self.name} снесён, но он останется в истории')
+
     def go_to(self, new_floor):
         if new_floor>self.number_of_floors or new_floor<1:
             print('Такого этажа не существует')
@@ -106,27 +110,41 @@ class House:
 #
 # # Следующее задание module_5_2 тоже выполнено здесь
 
-h3 = House('ЖК Эльбрус', 10)
-h4 = House('ЖК Акация', 20)
-
 # print(h3.__str__())
 # print(len(h3))
 # print(str(h3))
 # print(len(h4))
 
-print('module_5_3:')
-print(h3)
-print(h4)
-print(h3 == h4) # __eq__
-h3 = h3 + 10 # __add__
-print(h3)
-print(h3 == h4)
-h3 += 10 # __iadd__
-print(h3)
-h4 = 10 + h4 # __radd__
-print(h4)
-print(h3 > h4) # __gt__
-print(h3 >= h4) # __ge__
-print(h3 < h4) # __lt__
-print(h3 <= h4) # __le__
-print(h3 != h4) # __ne__
+# print('module_5_3:')
+# print(h3)
+# print(h4)
+# print(h3 == h4) # __eq__
+# h3 = h3 + 10 # __add__
+# print(h3)
+# print(h3 == h4)
+# h3 += 10 # __iadd__
+# print(h3)
+# h4 = 10 + h4 # __radd__
+# print(h4)
+# print(h3 > h4) # __gt__
+# print(h3 >= h4) # __ge__
+# print(h3 < h4) # __lt__
+# print(h3 <= h4) # __le__
+# print(h3 != h4) # __ne__
+
+#print(House.__dict__)
+#print(House.houses_history)
+
+ # Следующее задание module_5_4 тоже выполнено здесь
+print('module_5_4:')
+h3 = House('ЖК Эльбрус', 10)
+print(House.houses_history)
+h4 = House('ЖК Акация', 20)
+print(House.houses_history)
+h5 = House('ЖК Матрёшки', 20)
+print(House.houses_history)
+
+del h4
+del h5
+
+print(House.houses_history)
