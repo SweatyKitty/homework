@@ -26,7 +26,7 @@ class urtube:
 			print('Вы успешно зарегистрированы!')
 			self.current_user=nickname
 		
-	def log_out():
+	def log_out(self):
 		print('Вы вышли из своего аккаунта')
 		self.current_user='guest'
 		
@@ -88,7 +88,7 @@ class user:
 		self.password=hash(password)
 		self.age=age
 
-#
+#Не сказано в задаче надо ли добавлять цикл, для работы в приложении через консоль вывода
 ur=urtube()
 v1=video('Лучший язык программирования 2024 года',200)
 v2=video('Для чего девушкам парень-программист',10,adult_mode=True)
