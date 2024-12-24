@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="658ab653-f88e-458a-a259-39bc84d08f79" name="Changes" comment="" />
+    <list default="true" id="658ab653-f88e-458a-a259-39bc84d08f79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/module_6_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_6_2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +69,7 @@
     "Python.module_4_1.executor": "Run",
     "Python.module_5_1.executor": "Run",
     "Python.module_5_hard.executor": "Run",
+    "Python.module_6_2.executor": "Run",
     "Python.page.executor": "Run",
     "Python.practice_mod_3.executor": "Run",
     "Python.true_math.executor": "Run",
