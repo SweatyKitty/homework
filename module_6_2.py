@@ -5,7 +5,7 @@ class vehicle:
 	__color=''
 	__color_variants=['red','blue','yellow','white','black']
 	def get_model(self):
-		return(self._vehicle__model)
+		return(self.__model)
 	def get_horsepower(self):
 		return(self.__engine_power)
 	def get_color(self):
@@ -17,10 +17,10 @@ class vehicle:
 		print(f'Владелец: {self.owner}')
 	def set_color(self,new_color=''):
 		y=False
-		for i in range(0,len(self.__color_variants)-1):
+		for i in range(0,len(self.__color_variants)):
 			j=str(self.__color_variants[i])
-			#print(j.capitalize)
-			if new_color.upper==j.upper:
+			#print(new_color.upper(),j.upper())
+			if new_color.upper()==j.upper():
 				y=True
 				self.__color=new_color
 				print(f'Вы Успешно измнили цвет авто на {new_color}')
