@@ -1,5 +1,4 @@
 import arcade
-from pyglet.gl.gl import *
 
 SCREEN_WIDTH=800
 SCREEN_HEIGHT=600
