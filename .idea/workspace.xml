@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="658ab653-f88e-458a-a259-39bc84d08f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/m7_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m10_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m10_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m10_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m8_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m8_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m8_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_6_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_6_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_7_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/.idea/my_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_training/.idea/my_training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/Cross_Zero.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/TrainCalc1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_training/TrainCalc1.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/fungame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_training/practice_mod_3.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +135,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-python-sdk-6a3326d57233-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.24807.21" />
       </set>
     </attachedChunks>
   </component>

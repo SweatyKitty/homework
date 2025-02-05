@@ -1,4 +1,5 @@
 import arcade
+from pyglet.event import EVENT_HANDLE_STATE
 
 SCREEN_WIDTH=800
 SCREEN_HEIGHT=600
@@ -9,12 +10,13 @@ class Ball(arcade.Sprite):
 	def __init__(self):
 		super().__init__('ball.png',0.05)
 		self.change_x=3
+		self.change_y = 3
 		
 	def update(self):#Список условий, чтобы мячик не вылетал за пределы окна
 		self.center_x+=self.change_x
 		self.center_y+=self.change_y
 		if self.right>=SCREEN_WIDTH:
-			self.change_x= -self.change_xq
+			self.change_x= -self.change_x
 		if self.left<=0:
 			self.change_x=-self.change_x	
 		if self.top>=SCREEN_HEIGHT:
@@ -33,13 +35,16 @@ class Bar(arcade.Sprite):#4На сайте arcade можно посмотре�
 			self.right=SCREEN_WIDTH
 		if self.left<=0:
 			self.left=0
-			
 
 class Game(arcade.Window):#характеристики спрайт получает в ините, значит для его создания в game нужно и в game  переопределить init
 
 	def __init__(self,width,height,title):
 		super().__init__(width,height,title)
+		self.ball=Ball()
 		self.bar=Bar()#Создание ракетки внутри класса game чтобы она появилась в игре
+		self.spritelist=arcade.SpriteList()
+		self.spritelist.append(self.bar)
+		self.spritelist.append(self.ball)
 		self.setup()
 		
 	def setup(self):#6 создание метода, отвечающего за положение элементов в игре и размер
@@ -48,22 +53,27 @@ class Game(arcade.Window):#характеристики спрайт полу�
 		self.ball.center_x=SCREEN_WIDTH/2
 		self.ball.center_y=SCREEN_HEIGHT/2
 		
-	def on_draw(self):    
+	def on_draw(self):
 		self.clear((255,255,255))#3 Переопределение метода on_draw c белым цветом фона окна
-		self.bar.draw()#5 отрисовка ракетки в окне игры
-		self.ball.draw()#8 отрисовка мяча в игре
+		#self.spritelist.draw()#5 отрисовка ракетки в окне игры
+		#arcade.start_render()
+		self.spritelist.draw()
+		#self.ball.draw()#8 отрисовка мяча в игре
 	
 	def update(self,delta):
 		self.ball.update()
 		self.bar.update()
 		if arcade.check_for_collision(self.bar,self.ball):
-			self.ball.change_y=-self.ball.change_y
-		
+			self.ball.center_y+=-self.ball.change_y
+			self.ball.center_x +=-self.ball.change_x
+	def on_mouse_motion(self, x: int, y: int, dx: int, dy: int) -> EVENT_HANDLE_STATE:
+		self.bar.center_x=x
+		self.bar.center_y=y
 	def on_key_press(self,key,modifiers):#метод позволяющий реагировать на мобытия зажатия кнопки, ниже для отжатия
 		if key == arcade.key.RIGHT:
-			self.bar.change_x=5
+			self.bar.center_x+=5
 		if key == arcade.key.LEFT:
-			self.bar.change_x=-5
+			self.bar.center_x-=5
 	def on_key_release(self,key,modifiers):
 		if key==arcade.key.RIGHT or key==arcade.key.LEFT:
 			self.bar.change_x=0
